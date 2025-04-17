@@ -52,4 +52,5 @@ echo "Order 2:\n";
 echo "Order Number: " . $order2->orderNumber . "\n";
 echo "Products: " . implode(', ', $order2->products) . "\n";
 echo "Total Price: " . $order2->totalPrice . "\n";
+
 ?>
